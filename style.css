@@ -15,9 +15,33 @@ header{
     background-size: cover;
     background-color: rgba(0, 0,0, .1);
     background-blend-mode: overlay;
+    display: block;
 }
+.common-title{
+    color:#FF008E;
+    font-size: 40px;
+}
+.common-sub-title{
+    font-size: 25px;
+    font-weight: 700;
 
-.nav-container{
+}
+.discription{
+    font-size: 18px;
+    margin: 10px 0px;
+
+}
+.primary-btn{
+    padding: 10px 15px;
+    background-color: #FF008E;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.container{
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -40,4 +64,23 @@ header{
     text-decoration: none;
     color: white;
     font-weight: 700;
+    padding: 20px;
+}
+.banner{
+    height: calc( 100vh - 80px );
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin: auto auto;
+
+}
+.banner-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-right img{
+    width: 100%;
+    object-fit: cover;
 }
